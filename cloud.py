@@ -26,7 +26,7 @@ def count_word_frequency(text):
 
 def main():
     # Read contents of the text file
-    with open("C:/Users/ADMIN/Desktop/random_paragraphs.txt", 'r') as file:
+    with open("random_paragraphs.txt", 'r') as file:
         text = file.read(10000)
 
     # Remove stopwords from the text
