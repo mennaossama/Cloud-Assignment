@@ -3,4 +3,4 @@ WORKDIR /app
 COPY cloud.py random_paragraphs.txt ./
 RUN pip install nltk
 RUN python -m nltk.downloader stopwords
-CMD ["python","Cloud.py"]
+CMD ["python","cloud.py"]
